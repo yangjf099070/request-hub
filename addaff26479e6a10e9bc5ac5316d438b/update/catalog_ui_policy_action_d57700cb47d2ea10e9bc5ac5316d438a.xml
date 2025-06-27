@@ -5,27 +5,27 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
-        <field_message/>
-        <field_message_type>none</field_message_type>
+        <field_message>2222222222222</field_message>
+        <field_message_type>info</field_message_type>
         <mandatory>true</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-27 01:25:37</sys_created_on>
         <sys_id>d57700cb47d2ea10e9bc5ac5316d438a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>what_needed</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>what_needed_travel</sys_name>
         <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
         <sys_update_name>catalog_ui_policy_action_d57700cb47d2ea10e9bc5ac5316d438a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-27 01:33:34</sys_updated_on>
+        <sys_updated_on>2025-06-27 01:45:46</sys_updated_on>
         <table/>
-        <ui_policy display_value="Make 'what_needed' mandatory &amp; visible depending on 'requested_type'">5ac6c08b47d2ea10e9bc5ac5316d4309</ui_policy>
+        <ui_policy display_value="Make 'what_needed_travel' mandatory &amp; visible depending on 'requested_type'">5ac6c08b47d2ea10e9bc5ac5316d4309</ui_policy>
         <value>{1,2,3,4}</value>
-        <value_action>set_value</value_action>
-        <variable>what_needed</variable>
+        <value_action>ignore</value_action>
+        <variable>what_needed_travel</variable>
         <variable_set/>
         <visible>true</visible>
     </catalog_ui_policy_action>

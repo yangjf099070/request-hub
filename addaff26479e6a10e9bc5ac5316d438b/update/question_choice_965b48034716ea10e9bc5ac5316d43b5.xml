@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="What needed">fcd8a8364792aa10e9bc5ac5316d439d</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-27 01:42:37</sys_created_on>
+        <sys_id>965b48034716ea10e9bc5ac5316d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Air</sys_name>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_update_name>question_choice_965b48034716ea10e9bc5ac5316d43b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-27 01:42:37</sys_updated_on>
+        <text>Air</text>
+        <value>air</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=965b48034716ea10e9bc5ac5316d43b5"/>
+</record_update>

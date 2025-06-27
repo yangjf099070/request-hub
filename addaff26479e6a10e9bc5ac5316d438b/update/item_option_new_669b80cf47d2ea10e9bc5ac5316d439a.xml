@@ -10,7 +10,7 @@
         <conversational_label/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>phone</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -28,7 +28,7 @@
         <help_text/>
         <hidden>false</hidden>
         <include_none>false</include_none>
-        <instructions><![CDATA[<p>3333333</p>]]></instructions>
+        <instructions><![CDATA[<p>dddddddddd</p>]]></instructions>
         <layout>normal</layout>
         <list_table/>
         <lookup_label/>
@@ -42,14 +42,14 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>when_needed</name>
+        <name>what_needed_work</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>400</order>
+        <order>300</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>When needed</question_text>
+        <question_text>What needed(Work)</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -77,20 +77,20 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-26 09:14:52</sys_created_on>
-        <sys_id>4a1920764792aa10e9bc5ac5316d43fc</sys_id>
+        <sys_created_on>2025-06-27 01:44:49</sys_created_on>
+        <sys_id>669b80cf47d2ea10e9bc5ac5316d439a</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name>When needed</sys_name>
-        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_name>What needed(Work)</sys_name>
+        <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
-        <sys_update_name>item_option_new_4a1920764792aa10e9bc5ac5316d43fc</sys_update_name>
+        <sys_update_name>item_option_new_669b80cf47d2ea10e9bc5ac5316d439a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-27 01:46:24</sys_updated_on>
+        <sys_updated_on>2025-06-27 01:46:26</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>10</type>
+        <type>5</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=4a1920764792aa10e9bc5ac5316d43fc"/>
-    <fx_price action="delete_multiple" query="id=4a1920764792aa10e9bc5ac5316d43fc"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=669b80cf47d2ea10e9bc5ac5316d439a"/>
+    <fx_price action="delete_multiple" query="id=669b80cf47d2ea10e9bc5ac5316d439a"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="CNY">CNY</currency>
         <field>price_if_checked</field>
-        <id>4a1920764792aa10e9bc5ac5316d43fc</id>
+        <id>669b80cf47d2ea10e9bc5ac5316d439a</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-26 09:14:52</sys_created_on>
-        <sys_id>a14924764792aa10e9bc5ac5316d43e4</sys_id>
+        <sys_created_on>2025-06-27 01:44:49</sys_created_on>
+        <sys_id>6edb04434716ea10e9bc5ac5316d4370</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-26 09:14:52</sys_updated_on>
+        <sys_updated_on>2025-06-27 01:44:49</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="CNY">CNY</currency>
         <field>rec_price_if_checked</field>
-        <id>4a1920764792aa10e9bc5ac5316d43fc</id>
+        <id>669b80cf47d2ea10e9bc5ac5316d439a</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-26 09:14:52</sys_created_on>
-        <sys_id>254924764792aa10e9bc5ac5316d43e3</sys_id>
+        <sys_created_on>2025-06-27 01:44:49</sys_created_on>
+        <sys_id>eedb04434716ea10e9bc5ac5316d436f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-26 09:14:52</sys_updated_on>
+        <sys_updated_on>2025-06-27 01:44:49</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
