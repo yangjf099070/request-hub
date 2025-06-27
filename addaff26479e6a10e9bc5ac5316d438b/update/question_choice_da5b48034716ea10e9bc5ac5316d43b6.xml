@@ -4,7 +4,7 @@
         <misc>0</misc>
         <order>200</order>
         <published_ref/>
-        <question display_value="What needed(Travel)">fcd8a8364792aa10e9bc5ac5316d439d</question>
+        <question display_value="What needed">fcd8a8364792aa10e9bc5ac5316d439d</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
