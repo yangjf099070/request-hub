@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Open 'Request Hub' catalog item</description>
+        <display_name>Open a Catalog Item</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Open a Catalog Item">2516c0e1c332220076173b0ac3d3ae39</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 06:13:54</sys_created_on>
+        <sys_id>93166c4847a62210e9bc5ac5316d43bd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Open a Catalog Item</sys_name>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_update_name>sys_atf_step_93166c4847a62210e9bc5ac5316d43bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 06:31:51</sys_updated_on>
+        <table/>
+        <test display_value="Test Request Hub App From Service Portal">ab55ac0847a62210e9bc5ac5316d4395</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=93166c4847a62210e9bc5ac5316d43bd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>93166c4847a62210e9bc5ac5316d43bd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 06:13:54</sys_created_on>
+        <sys_id>a536ec4847a62210e9bc5ac5316d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 06:13:54</sys_updated_on>
+        <value>5f77a8b24792aa10e9bc5ac5316d4303</value>
+        <variable display_value="Catalog item">b0d64ce1c332220076173b0ac3d3ae95</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2516c0e1c332220076173b0ac3d3ae39^id=93166c4847a62210e9bc5ac5316d43bd"/>
+</record_update>

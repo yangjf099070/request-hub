@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="what_needed" label="What needed" language="en" table="x_1776254_request_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>what_needed</element>
+            <help/>
+            <hint/>
+            <label>What needed</label>
+            <language>en</language>
+            <name>x_1776254_request_request</name>
+            <plural>What needed</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>fred.luddy</sys_created_by>
+            <sys_created_on>2025-06-27 03:27:08</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>What needed</sys_name>
+            <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+            <sys_update_name>sys_documentation_x_1776254_request_request_what_needed_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-27 06:53:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

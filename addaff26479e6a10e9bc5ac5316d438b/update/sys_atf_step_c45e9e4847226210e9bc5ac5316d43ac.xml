@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Validate there is at least one record in 'x_1776254_request_request' matching query:
+Sys ID = {{Step 4: Order Catalog Item.Request}}
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>6</order>
+        <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 15:01:07</sys_created_on>
+        <sys_id>c45e9e4847226210e9bc5ac5316d43ac</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_update_name>sys_atf_step_c45e9e4847226210e9bc5ac5316d43ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 15:32:35</sys_updated_on>
+        <table>x_1776254_request_request</table>
+        <test display_value="Test Request Hub App From Service Portal">ab55ac0847a62210e9bc5ac5316d4395</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=c45e9e4847226210e9bc5ac5316d43ac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c45e9e4847226210e9bc5ac5316d43ac</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 15:01:08</sys_created_on>
+        <sys_id>2cee560c47226210e9bc5ac5316d43a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 15:01:08</sys_updated_on>
+        <value>records_match_query</value>
+        <variable display_value="Assert type">b86c0427531000109e02ddeeff7b1227</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c45e9e4847226210e9bc5ac5316d43ac</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 15:01:08</sys_created_on>
+        <sys_id>64ee560c47226210e9bc5ac5316d43a3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 15:32:35</sys_updated_on>
+        <value>sys_id={{step['2c282c0c47a62210e9bc5ac5316d432a'].request_id}}^EQ</value>
+        <variable display_value="Conditions">915990ab531000109e02ddeeff7b12f8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c45e9e4847226210e9bc5ac5316d43ac</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 15:01:08</sys_created_on>
+        <sys_id>a0ee560c47226210e9bc5ac5316d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 15:01:08</sys_updated_on>
+        <value>x_1776254_request_request</value>
+        <variable display_value="Table">78b8d86b531000109e02ddeeff7b12f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c45e9e4847226210e9bc5ac5316d43ac</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 15:01:08</sys_created_on>
+        <sys_id>ecee560c47226210e9bc5ac5316d43a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 15:01:08</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enforce security">02fb0027531000109e02ddeeff7b120b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c45e9e4847226210e9bc5ac5316d43ac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>c45e9e4847226210e9bc5ac5316d43ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 15:01:08</sys_created_on>
+        <sys_id>e4ee560c47226210e9bc5ac5316d43a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 15:01:08</sys_updated_on>
+        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>c45e9e4847226210e9bc5ac5316d43ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 15:01:08</sys_created_on>
+        <sys_id>a8ee560c47226210e9bc5ac5316d43a2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 15:32:35</sys_updated_on>
+        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
+        <value>sys_id={{step['2c282c0c47a62210e9bc5ac5316d432a'].request_id}}^EQ</value>
+    </sys_element_mapping>
+</record_update>

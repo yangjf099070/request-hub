@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Check the below field when submitting the form.&#13;
+&gt; </description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Request onSubmit</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 07:51:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>93069c3a4712aa10e9bc5ac5316d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request onSubmit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_update_name>sys_script_client_93069c3a4712aa10e9bc5ac5316d43a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:51:44</sys_updated_on>
+        <table>x_1776254_request_request</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</application>
+        <file_path/>
+        <instance_id>33508b4a9390e65c611eddd548373c13</instance_id>
+        <instance_name>dev300236</instance_name>
+        <name>sys_script_client_93069c3a4712aa10e9bc5ac5316d43a1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Check the below field when submitting the form.&amp;#13;
+&amp;gt; &lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Request onSubmit&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-26 07:51:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;93069c3a4712aa10e9bc5ac5316d43a1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Request onSubmit&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Request Hub" source="x_1776254_request"&gt;addaff26479e6a10e9bc5ac5316d438b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Request Hub"&gt;addaff26479e6a10e9bc5ac5316d438b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_93069c3a4712aa10e9bc5ac5316d43a1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-26 07:51:44&lt;/sys_updated_on&gt;&lt;table&gt;x_1776254_request_request&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1615536632</payload_hash>
+        <record_name>Request onSubmit</record_name>
+        <reverted_from/>
+        <source>e1daff26479e6a10e9bc5ac5316d438e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 07:51:44</sys_created_on>
+        <sys_id>273650ba4712aa10e9bc5ac5316d4305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197ab38a0a80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:51:44</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>2b3650ba0212aa10b0c6b57ac388b304</update_guid>
+        <update_guid_history>2b3650ba0212aa10b0c6b57ac388b304:-1615536632</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-27 03:24:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0998387add064aaba5c1ed03962ffff9</sys_id>
+        <sys_metadata>93069c3a4712aa10e9bc5ac5316d43a1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request onSubmit</sys_name>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_parent display_value="">840b3766479e6a10e9bc5ac5316d438c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_scope_delete display_value="">3d30a955831e43d29be9bd5131e90059</sys_scope_delete>
+        <sys_update_name>sys_script_client_93069c3a4712aa10e9bc5ac5316d43a1</sys_update_name>
+        <sys_update_version display_value="sys_script_client_93069c3a4712aa10e9bc5ac5316d43a1">273650ba4712aa10e9bc5ac5316d4305</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-27 03:24:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Request Hub">5f77a8b24792aa10e9bc5ac5316d4303</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 09:07:45</sys_created_on>
+        <sys_id>41a7acb24792aa10e9bc5ac5316d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request Hub</sys_name>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_41a7acb24792aa10e9bc5ac5316d43ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:07:45</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</application>
+        <file_path/>
+        <instance_id>33508b4a9390e65c611eddd548373c13</instance_id>
+        <instance_name>dev300236</instance_name>
+        <name>sc_cat_item_catalog_41a7acb24792aa10e9bc5ac5316d43ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request Hub">5f77a8b24792aa10e9bc5ac5316d4303</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-26 09:07:45</sys_created_on><sys_id>41a7acb24792aa10e9bc5ac5316d43ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Request Hub</sys_name><sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package><sys_policy/><sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope><sys_update_name>sc_cat_item_catalog_41a7acb24792aa10e9bc5ac5316d43ca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-26 09:07:45</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-115629514</payload_hash>
+        <record_name>Service Catalog.Request Hub</record_name>
+        <reverted_from/>
+        <source>e1daff26479e6a10e9bc5ac5316d438e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 09:07:45</sys_created_on>
+        <sys_id>c5a7acb24792aa10e9bc5ac5316d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197ab7e38da0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:07:45</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>09a7acb24292aa1053fe7d300e5496cc</update_guid>
+        <update_guid_history>09a7acb24292aa1053fe7d300e5496cc:-115629514</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Request Hub">bba7ecb24792aa10e9bc5ac5316d43a8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 09:07:56</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>2de2a7f5eb53412097fbdc705f84be10</sys_id>
+        <sys_metadata>41a7acb24792aa10e9bc5ac5316d43ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request Hub</sys_name>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_parent display_value="Request Hub">5f77a8b24792aa10e9bc5ac5316d4303</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_scope_delete display_value="">3d30a955831e43d29be9bd5131e90059</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_41a7acb24792aa10e9bc5ac5316d43ca</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_41a7acb24792aa10e9bc5ac5316d43ca">c5a7acb24792aa10e9bc5ac5316d43cd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:07:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

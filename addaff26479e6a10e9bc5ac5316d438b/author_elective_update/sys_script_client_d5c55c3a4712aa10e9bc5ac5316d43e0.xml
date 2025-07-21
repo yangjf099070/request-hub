@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set the below field value to the currently logged in user info for new record when loding the form.&#13;
+&gt; Requested for&#13;
+&gt; Requested for Email</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Request onload</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Check to see if the form is for a new record.  If it is a new record, 
+    //set the Requested for value to the currently logged in user.
+    //set the Requested for Email value to the currently logged in user's Email.
+    //set the Request Date value to the day of today.
+
+    if(g_form.isNewRecord()){
+		// ------设定Requested for
+        g_form.setValue('requested_for',g_user.userID);
+        
+		// ------设定Requested for email
+        // Instantiate the GetEmailAddress Script Include 
+        var getEmailAddr = new GlideAjax('GetEmailAddress');
+        // Specify the getEmail method
+        getEmailAddr.addParam('sysparm_name','getEmail');
+        // Pass the Requested for sys_id
+        getEmailAddr.addParam('sysparm_userID', g_form.getValue('requested_for'));
+        // Send the request to the server
+        getEmailAddr.getXML(populateEmailField);
+
+    }
+
+    function populateEmailField(response){
+        // Extract the email address from the response, clear any value from the email field, 
+        // set new value in the Requested for email field
+        var emailFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+        g_form.setValue('requested_for_email',emailFromScriptInclude);
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 07:50:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d5c55c3a4712aa10e9bc5ac5316d43e0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Request onload</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_update_name>sys_script_client_d5c55c3a4712aa10e9bc5ac5316d43e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:52:26</sys_updated_on>
+        <table>x_1776254_request_request</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</application>
+        <file_path/>
+        <instance_id>33508b4a9390e65c611eddd548373c13</instance_id>
+        <instance_name>dev300236</instance_name>
+        <name>sys_script_client_d5c55c3a4712aa10e9bc5ac5316d43e0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Set the below field value to the currently logged in user info for new record when loding the form.&amp;#13;
+&amp;gt; Requested for&amp;#13;
+&amp;gt; Requested for Email&lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Request onload&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    //Check to see if the form is for a new record.  If it is a new record, 
+    //set the Requested for value to the currently logged in user.
+    //set the Requested for Email value to the currently logged in user's Email.
+    //set the Request Date value to the day of today.
+
+    if(g_form.isNewRecord()){
+		// ------设定Requested for
+        g_form.setValue('requested_for',g_user.userID);
+        
+		// ------设定Requested for email
+        // Instantiate the GetEmailAddress Script Include 
+        var getEmailAddr = new GlideAjax('GetEmailAddress');
+        // Specify the getEmail method
+        getEmailAddr.addParam('sysparm_name','getEmail');
+        // Pass the Requested for sys_id
+        getEmailAddr.addParam('sysparm_userID', g_form.getValue('requested_for'));
+        // Send the request to the server
+        getEmailAddr.getXML(populateEmailField);
+
+    }
+
+    function populateEmailField(response){
+        // Extract the email address from the response, clear any value from the email field, 
+        // set new value in the Requested for email field
+        var emailFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+        g_form.setValue('requested_for_email',emailFromScriptInclude);
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-26 07:50:37&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d5c55c3a4712aa10e9bc5ac5316d43e0&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Request onload&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Request Hub" source="x_1776254_request"&gt;addaff26479e6a10e9bc5ac5316d438b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Request Hub"&gt;addaff26479e6a10e9bc5ac5316d438b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_d5c55c3a4712aa10e9bc5ac5316d43e0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-26 07:52:26&lt;/sys_updated_on&gt;&lt;table&gt;x_1776254_request_request&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1181395288</payload_hash>
+        <record_name>Request onload</record_name>
+        <reverted_from/>
+        <source>e1daff26479e6a10e9bc5ac5316d438e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 07:52:27</sys_created_on>
+        <sys_id>4e66d0ba4712aa10e9bc5ac5316d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197ab3946760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:52:27</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>0666d0ba0912aa108b00241854008e8c</update_guid>
+        <update_guid_history>0666d0ba0912aa108b00241854008e8c:-1181395288,93f5dc3ab612aa10c44c2d3d8d68137e:208521916</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-27 03:24:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>83098240483c45d292e736e3226f9fc4</sys_id>
+        <sys_metadata>d5c55c3a4712aa10e9bc5ac5316d43e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request onload</sys_name>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_parent display_value="">840b3766479e6a10e9bc5ac5316d438c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_scope_delete display_value="">3d30a955831e43d29be9bd5131e90059</sys_scope_delete>
+        <sys_update_name>sys_script_client_d5c55c3a4712aa10e9bc5ac5316d43e0</sys_update_name>
+        <sys_update_version display_value="sys_script_client_d5c55c3a4712aa10e9bc5ac5316d43e0">4e66d0ba4712aa10e9bc5ac5316d438c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-27 03:24:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

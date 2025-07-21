@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Order item and confirm that ordering is successful</description>
+        <display_name>Order Catalog Item</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <step_config display_value="Order Catalog Item">c930b4b2c310320076173b0ac3d3aeec</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 06:22:31</sys_created_on>
+        <sys_id>2c282c0c47a62210e9bc5ac5316d432a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Order Catalog Item</sys_name>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_update_name>sys_atf_step_2c282c0c47a62210e9bc5ac5316d432a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 06:31:51</sys_updated_on>
+        <table/>
+        <test display_value="Test Request Hub App From Service Portal">ab55ac0847a62210e9bc5ac5316d4395</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=2c282c0c47a62210e9bc5ac5316d432a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2c282c0c47a62210e9bc5ac5316d432a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 06:22:31</sys_created_on>
+        <sys_id>2f28a0c847a62210e9bc5ac5316d431d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 06:22:31</sys_updated_on>
+        <value>form_submitted_to_server</value>
+        <variable display_value="Assert type">17513cb2c310320076173b0ac3d3ae64</variable>
+    </sys_variable_value>
+</record_update>

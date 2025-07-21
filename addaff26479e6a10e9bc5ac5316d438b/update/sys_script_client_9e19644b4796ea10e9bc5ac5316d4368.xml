@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set the below field value to the currently logged in user info for new record when loding the form.&#13;
+&gt; Requested for&#13;
+&gt; Requested for Email</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Request onload</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Check to see if the form is for a new record.  If it is a new record, 
+    //set the Requested for value to the currently logged in user.
+    //set the Requested for Email value to the currently logged in user's Email.
+    //set the Request Date value to the day of today.
+
+    if(g_form.isNewRecord()){
+		// ------设定Requested for
+        g_form.setValue('requested_for',g_user.userID);
+        
+		// ------设定Requested for email
+        // Instantiate the GetEmailAddress Script Include 
+        var getEmailAddr = new GlideAjax('GetEmailAddress');
+        // Specify the getEmail method
+        getEmailAddr.addParam('sysparm_name','getEmail');
+        // Pass the Requested for sys_id
+        getEmailAddr.addParam('sysparm_userID', g_form.getValue('requested_for'));
+        // Send the request to the server
+        getEmailAddr.getXML(populateEmailField);
+
+        // // Clear all of the choices from the What needed field choice list
+        // g_form.clearOptions('what_needed');
+
+		// // ------设定What needed
+		// g_form.addOption('what_needed', 'holiday', 'Holiday');
+		// g_form.addOption('what_needed', 'sick Leave', 'Sick Leave');
+		// g_form.addOption('what_needed', 'annual Leave', 'Annual Leave');
+		// g_form.addOption('what_needed', 'child Care', 'Child Care');
+		// g_form.addOption('what_needed', 'marriage', 'Marriage');
+		// g_form.addOption('what_needed', 'optional Holiday', 'Optional Holiday');
+
+    }
+
+    function populateEmailField(response){
+        // Extract the email address from the response, clear any value from the email field, 
+        // set new value in the Requested for email field
+        var emailFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+        g_form.setValue('requested_for_email',emailFromScriptInclude);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-27 03:53:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9e19644b4796ea10e9bc5ac5316d4368</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Request onload</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_update_name>sys_script_client_9e19644b4796ea10e9bc5ac5316d4368</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-27 06:55:46</sys_updated_on>
+        <table>x_1776254_request_request</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

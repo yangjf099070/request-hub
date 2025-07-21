@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_1776254_request_request">state=3^ORstate=4^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item display_value="Closed Incomplete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>200</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setDisabled('number',true);
+	g_form.setDisabled('requested_for',true);
+	g_form.setDisabled('requested_for_email',true);
+	g_form.setDisabled('requested_type',true);
+	g_form.setDisabled('what_needed',true);
+	g_form.setDisabled('when_needed',true);
+	g_form.setDisabled('state',true);
+	g_form.setDisabled('priority',true);
+	// g_form.setDisabled('assigned_to',true);
+	g_form.setDisabled('approval',true);
+}]]></script_true>
+        <set_values/>
+        <short_description>When state field is Closed</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 02:05:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>064c2b3f47522210e9bc5ac5316d437d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>When state field is Closed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_update_name>sys_ui_policy_064c2b3f47522210e9bc5ac5316d437d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 06:02:32</sys_updated_on>
+        <table>x_1776254_request_request</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

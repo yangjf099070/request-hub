@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Validate that an email was generated matching query:
+State = Processed
+  or State = Ready
+and Recipients = {{Step 1: Create a User.User.Email}}
+and User ID is anything
+and Subject is anything
+and Body is anything
+and Headers is anything
+With a failure timeout of 30 Seconds</description>
+        <display_name>Validate Outbound Email</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>8</order>
+        <step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 06:55:50</sys_created_on>
+        <sys_id>257e280447e62210e9bc5ac5316d433b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_update_name>sys_atf_step_257e280447e62210e9bc5ac5316d433b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-01 02:17:39</sys_updated_on>
+        <table/>
+        <test display_value="Test Request Hub App From Service Portal">ab55ac0847a62210e9bc5ac5316d4395</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=257e280447e62210e9bc5ac5316d433b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>257e280447e62210e9bc5ac5316d433b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 06:55:51</sys_created_on>
+        <sys_id>7bcf6c8447e62210e9bc5ac5316d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 06:55:51</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>257e280447e62210e9bc5ac5316d433b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 06:55:51</sys_created_on>
+        <sys_id>b7cf6c8447e62210e9bc5ac5316d43c6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-01 02:17:39</sys_updated_on>
+        <value>state=processed^ORstate=ready^recipients={{step['42b92c0c47a62210e9bc5ac5316d4335'].user.email}}^user_idANYTHING^subjectANYTHING^bodyANYTHING^headersANYTHING^EQ</value>
+        <variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=257e280447e62210e9bc5ac5316d433b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>257e280447e62210e9bc5ac5316d433b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 06:55:51</sys_created_on>
+        <sys_id>73cf6c8447e62210e9bc5ac5316d43c6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-01 02:17:39</sys_updated_on>
+        <table>var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82</table>
+        <value>state=processed^ORstate=ready^recipients={{step['42b92c0c47a62210e9bc5ac5316d4335'].user.email}}^user_idANYTHING^subjectANYTHING^bodyANYTHING^headersANYTHING^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>257e280447e62210e9bc5ac5316d433b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 06:55:51</sys_created_on>
+        <sys_id>37cf6c8447e62210e9bc5ac5316d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 06:55:51</sys_updated_on>
+        <table>var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Request">adbc3be6479e6a10e9bc5ac5316d43ef</application>
+        <filter/>
+        <name>Requests</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1776254_request.request_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 06:00:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7dbc7be6479e6a10e9bc5ac5316d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requests</sys_name>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_update_name>sys_ui_module_7dbc7be6479e6a10e9bc5ac5316d4330</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 06:00:12</sys_updated_on>
+        <table>x_1776254_request_request</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</application>
+        <file_path/>
+        <instance_id>33508b4a9390e65c611eddd548373c13</instance_id>
+        <instance_name>dev300236</instance_name>
+        <name>sys_ui_module_7dbc7be6479e6a10e9bc5ac5316d4330</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Request">adbc3be6479e6a10e9bc5ac5316d43ef</application><filter/><name>Requests</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1776254_request.request_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-26 06:00:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7dbc7be6479e6a10e9bc5ac5316d4330</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requests</sys_name><sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package><sys_policy/><sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope><sys_update_name>sys_ui_module_7dbc7be6479e6a10e9bc5ac5316d4330</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-26 06:00:12</sys_updated_on><table>x_1776254_request_request</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1843034004</payload_hash>
+        <record_name>Requests</record_name>
+        <reverted_from/>
+        <source>e1daff26479e6a10e9bc5ac5316d438e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 06:00:12</sys_created_on>
+        <sys_id>f1bc7be6479e6a10e9bc5ac5316d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197aad283030000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 06:00:12</sys_updated_on>
+        <type>Module</type>
+        <update_guid>f5bc7be6bf9e6a101825a6a7a7edf432</update_guid>
+        <update_guid_history>f5bc7be6bf9e6a101825a6a7a7edf432:-1843034004</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-27 03:24:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>0ee3b44241244f6ca959cdf5ad0f7c44</sys_id>
+        <sys_metadata>7dbc7be6479e6a10e9bc5ac5316d4330</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requests</sys_name>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_scope_delete display_value="">3d30a955831e43d29be9bd5131e90059</sys_scope_delete>
+        <sys_update_name>sys_ui_module_7dbc7be6479e6a10e9bc5ac5316d4330</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_7dbc7be6479e6a10e9bc5ac5316d4330">f1bc7be6479e6a10e9bc5ac5316d4333</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-27 03:24:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

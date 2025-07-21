@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2025-06-27 03:26:05</sys_created_on>
+        <sys_id>0a0328434796ea10e9bc5ac5316d4334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1776254_request_request.x_1776254_request.request_user</sys_name>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_security_acl display_value="x_1776254_request_request">020328434796ea10e9bc5ac5316d4331</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0a0328434796ea10e9bc5ac5316d4334</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2025-06-27 03:26:05</sys_updated_on>
+        <sys_user_role display_value="x_1776254_request.request_user" name="x_1776254_request.request_user">aaac3366479e6a10e9bc5ac5316d433e</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</application>
+        <file_path/>
+        <instance_id>33508b4a9390e65c611eddd548373c13</instance_id>
+        <instance_name>dev300236</instance_name>
+        <name>sys_security_acl_role_0a0328434796ea10e9bc5ac5316d4334</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>fred.luddy</sys_created_by><sys_created_on>2025-06-27 03:26:05</sys_created_on><sys_id>0a0328434796ea10e9bc5ac5316d4334</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1776254_request_request.x_1776254_request.request_user</sys_name><sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package><sys_policy/><sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope><sys_security_acl display_value="x_1776254_request_request">020328434796ea10e9bc5ac5316d4331</sys_security_acl><sys_update_name>sys_security_acl_role_0a0328434796ea10e9bc5ac5316d4334</sys_update_name><sys_updated_by>fred.luddy</sys_updated_by><sys_updated_on>2025-06-27 03:26:05</sys_updated_on><sys_user_role display_value="x_1776254_request.request_user" name="x_1776254_request.request_user">aaac3366479e6a10e9bc5ac5316d433e</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>349964082</payload_hash>
+        <record_name>x_1776254_request_request.x_1776254_request.request_user</record_name>
+        <reverted_from/>
+        <source>e1daff26479e6a10e9bc5ac5316d438e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2025-06-27 03:26:05</sys_created_on>
+        <sys_id>ca0328434796ea10e9bc5ac5316d4337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197af6bc8860000001</sys_recorded_at>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2025-06-27 03:26:05</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>ce0328437e96ea108c7b6cab1b496436</update_guid>
+        <update_guid_history>ce0328437e96ea108c7b6cab1b496436:349964082</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1776254_request_request.x_1776254_request.request_user">cfb3a77347522210e9bc5ac5316d43b5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2025-06-30 01:23:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>7fc2b7c6dc874dba84d10fc9ce050944</sys_id>
+        <sys_metadata>0a0328434796ea10e9bc5ac5316d4334</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1776254_request_request.x_1776254_request.request_user</sys_name>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_parent display_value="x_1776254_request_request">020328434796ea10e9bc5ac5316d4331</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_scope_delete display_value="">3d30a955831e43d29be9bd5131e90059</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_0a0328434796ea10e9bc5ac5316d4334</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_0a0328434796ea10e9bc5ac5316d4334">ca0328434796ea10e9bc5ac5316d4337</sys_update_version>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2025-06-30 01:23:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

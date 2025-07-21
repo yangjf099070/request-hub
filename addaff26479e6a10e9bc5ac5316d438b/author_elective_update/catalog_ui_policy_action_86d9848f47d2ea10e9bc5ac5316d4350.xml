@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Request Hub">5f77a8b24792aa10e9bc5ac5316d4303</catalog_item>
+        <catalog_variable>IO:fcd8a8364792aa10e9bc5ac5316d439d</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-27 01:36:02</sys_created_on>
+        <sys_id>86d9848f47d2ea10e9bc5ac5316d4350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>what_needed</sys_name>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_86d9848f47d2ea10e9bc5ac5316d4350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-27 01:36:02</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'what_needed' mandatory &amp; visible depending on 'requested_type'">85b9c08f47d2ea10e9bc5ac5316d4326</ui_policy>
+        <value>1111</value>
+        <value_action>set_value</value_action>
+        <variable>what_needed</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=86d9848f47d2ea10e9bc5ac5316d4350"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</application>
+        <file_path/>
+        <instance_id>33508b4a9390e65c611eddd548373c13</instance_id>
+        <instance_name>dev300236</instance_name>
+        <name>catalog_ui_policy_action_86d9848f47d2ea10e9bc5ac5316d4350</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Request Hub">5f77a8b24792aa10e9bc5ac5316d4303</catalog_item><catalog_variable>IO:fcd8a8364792aa10e9bc5ac5316d439d</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-27 01:36:02</sys_created_on><sys_id>86d9848f47d2ea10e9bc5ac5316d4350</sys_id><sys_mod_count>0</sys_mod_count><sys_name>what_needed</sys_name><sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package><sys_policy/><sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope><sys_update_name>catalog_ui_policy_action_86d9848f47d2ea10e9bc5ac5316d4350</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-27 01:36:02</sys_updated_on><table/><ui_policy display_value="Make 'what_needed' mandatory &amp; visible depending on 'requested_type'">85b9c08f47d2ea10e9bc5ac5316d4326</ui_policy><value>1111</value><value_action>set_value</value_action><variable>what_needed</variable><variable_set/><visible>true</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=86d9848f47d2ea10e9bc5ac5316d4350"/></record_update>]]></payload>
+        <payload_hash>-23394173</payload_hash>
+        <record_name>what_needed</record_name>
+        <reverted_from/>
+        <source>ba0ac88f47d2ea10e9bc5ac5316d430e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-27 01:36:55</sys_created_on>
+        <sys_id>f60ac88f47d2ea10e9bc5ac5316d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197af07d5d70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-27 01:36:55</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>fa0ac88f0cd2ea10d56493ef1eacbcac</update_guid>
+        <update_guid_history>fa0ac88f0cd2ea10d56493ef1eacbcac:-23394173,3e0ac88f3dd2ea1029e22a3d3f996ca8:1559056104</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="what_needed">793c0c434716ea10e9bc5ac5316d43ee</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-27 01:46:25</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>29dea32a49614db29563d848966f9529</sys_id>
+        <sys_metadata>86d9848f47d2ea10e9bc5ac5316d4350</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>what_needed</sys_name>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_scope_delete display_value="">3d30a955831e43d29be9bd5131e90059</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_86d9848f47d2ea10e9bc5ac5316d4350</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_86d9848f47d2ea10e9bc5ac5316d4350">f60ac88f47d2ea10e9bc5ac5316d43ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-27 01:46:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

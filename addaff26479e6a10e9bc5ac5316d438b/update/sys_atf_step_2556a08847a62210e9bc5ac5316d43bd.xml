@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Answer the questions on the form as follows:
+Requested for = 
+and Requested type = Leave
+and What needed = Holiday
+and When needed = 2025-07-04 17:00:00
+and Priority = 4 - Low
+and What needed = Air
+and What needed = Phone</description>
+        <display_name>Set Variable Values</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Set Variable Values">323ca6e1c3b2220076173b0ac3d3aec1</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 06:19:53</sys_created_on>
+        <sys_id>2556a08847a62210e9bc5ac5316d43bd</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Set Variable Values</sys_name>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_update_name>sys_atf_step_2556a08847a62210e9bc5ac5316d43bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-01 02:17:02</sys_updated_on>
+        <table/>
+        <test display_value="Test Request Hub App From Service Portal">ab55ac0847a62210e9bc5ac5316d4395</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=2556a08847a62210e9bc5ac5316d43bd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2556a08847a62210e9bc5ac5316d43bd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 06:19:53</sys_created_on>
+        <sys_id>099768c847a62210e9bc5ac5316d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 06:19:53</sys_updated_on>
+        <value>5f77a8b24792aa10e9bc5ac5316d4303</value>
+        <variable display_value="Item">571e6a25c3b2220076173b0ac3d3ae46</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2556a08847a62210e9bc5ac5316d43bd</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 06:19:53</sys_created_on>
+        <sys_id>459768c847a62210e9bc5ac5316d43f0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-01 02:17:02</sys_updated_on>
+        <value>IO:bce698034756ea10e9bc5ac5316d4342={{step['42b92c0c47a62210e9bc5ac5316d4335'].user}}^IO:1c88e0364792aa10e9bc5ac5316d4338=leave^IO:b4cc0c834716ea10e9bc5ac5316d433b=holiday^IO:4a1920764792aa10e9bc5ac5316d43fc=2025-07-05 00:00:00^IO:6e59a4764792aa10e9bc5ac5316d43fc=4^IO:fcd8a8364792aa10e9bc5ac5316d439d=air^IO:669b80cf47d2ea10e9bc5ac5316d439a=phone^EQ</value>
+        <variable display_value="Variable Values">346eea25c3b2220076173b0ac3d3ae8b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2556a08847a62210e9bc5ac5316d43bd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable_values</field>
+        <id>2556a08847a62210e9bc5ac5316d43bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 06:19:53</sys_created_on>
+        <sys_id>c19768c847a62210e9bc5ac5316d43f0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-01 02:17:02</sys_updated_on>
+        <table>var__m_atf_input_variable_323ca6e1c3b2220076173b0ac3d3aec1</table>
+        <value>IO:bce698034756ea10e9bc5ac5316d4342={{step['42b92c0c47a62210e9bc5ac5316d4335'].user}}^IO:1c88e0364792aa10e9bc5ac5316d4338=leave^IO:b4cc0c834716ea10e9bc5ac5316d433b=holiday^IO:4a1920764792aa10e9bc5ac5316d43fc=2025-07-05 00:00:00^IO:6e59a4764792aa10e9bc5ac5316d43fc=4^IO:fcd8a8364792aa10e9bc5ac5316d439d=air^IO:669b80cf47d2ea10e9bc5ac5316d439a=phone^EQ</value>
+    </sys_element_mapping>
+</record_update>

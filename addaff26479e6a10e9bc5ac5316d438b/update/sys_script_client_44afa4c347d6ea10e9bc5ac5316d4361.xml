@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Only display What needed choices that match the Request type value.</description>
+        <field>requested_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Request onChange Requested type</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+    if (isLoading || newValue == '' || isTemplate) {
+        return;
+    }
+	
+    // var whatneeded = g_form.getValue('what_needed');
+
+    // Clear all of the choices from the What needed field choice list
+    g_form.clearOptions('what_needed');
+
+    // choice list
+    if (newValue == 'leave') {
+		g_form.addOption('what_needed', 'holiday', 'Holiday');
+		g_form.addOption('what_needed', 'sick Leave', 'Sick Leave');
+		g_form.addOption('what_needed', 'annual Leave', 'Annual Leave');
+		g_form.addOption('what_needed', 'child Care', 'Child Care');
+		g_form.addOption('what_needed', 'marriage', 'Marriage');
+		g_form.addOption('what_needed', 'optional Holiday', 'Optional Holiday');
+    }
+
+    // choice list
+    if (newValue == 'travel') {
+		g_form.addOption('what_needed', 'air', 'Air');
+		g_form.addOption('what_needed', 'train', 'Train');
+		g_form.addOption('what_needed', 'hotel', 'Hotel');
+		g_form.addOption('what_needed', 'meal', 'Meal');
+    }
+
+    // choice list
+    if (newValue == 'work') {
+		g_form.addOption('what_needed', 'phone', 'Phone');
+		g_form.addOption('what_needed', 'pc', 'PC');
+		g_form.addOption('what_needed', 'seat', 'Seat');
+		g_form.addOption('what_needed', 'meeting room', 'Meeting room');
+    }
+
+    // If the form is loading and it is not a new record, set the u_what_needed value to the
+    // value from the record before it was loaded
+    // if (isLoading && !g_form.isNewRecord()) {
+        // g_form.setValue('what_needed', whatneeded);
+    // }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-27 04:26:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>44afa4c347d6ea10e9bc5ac5316d4361</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Request onChange Requested type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request Hub" source="x_1776254_request">addaff26479e6a10e9bc5ac5316d438b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Hub">addaff26479e6a10e9bc5ac5316d438b</sys_scope>
+        <sys_update_name>sys_script_client_44afa4c347d6ea10e9bc5ac5316d4361</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-27 06:50:09</sys_updated_on>
+        <table>x_1776254_request_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f6c2eccf4756ea10e9bc5ac5316d437f" extends="task" label="Request" max_length="40" name="x_1776254_request_request" type="collection">
+        <element choice="3" dependent="requested_type" dependent_on_field="requested_type" label="What needed" mandatory="true" max_length="40" name="what_needed" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="leave" inactive_on_update="false" label="Holiday" sequence="0" value="holiday"/>
+                <element dependent_value="work" inactive_on_update="false" label="PC" sequence="11" value="pc"/>
+                <element dependent_value="work" inactive_on_update="false" label="Meeting room" sequence="13" value="meeting room"/>
+                <element dependent_value="travel" inactive_on_update="false" label="Air" sequence="6" value="air"/>
+                <element dependent_value="travel" inactive_on_update="false" label="Hotel" sequence="8" value="hotel"/>
+                <element dependent_value="leave" inactive_on_update="false" label="Annual Leave" sequence="2" value="annual leave"/>
+                <element dependent_value="leave" inactive_on_update="false" label="Marriage" sequence="4" value="marriage"/>
+                <element dependent_value="work" inactive_on_update="false" label="Phone" sequence="10" value="leave"/>
+                <element dependent_value="work" inactive_on_update="false" label="Seat" sequence="12" value="seat"/>
+                <element dependent_value="travel" inactive_on_update="false" label="Train" sequence="7" value="train"/>
+                <element dependent_value="travel" inactive_on_update="false" label="Meal" sequence="9" value="meal"/>
+                <element dependent_value="leave" inactive_on_update="false" label="Sick Leave" sequence="1" value="sick leave"/>
+                <element dependent_value="leave" inactive_on_update="false" label="Child Care" sequence="3" value="child care"/>
+                <element dependent_value="leave" inactive_on_update="false" label="Optional Holiday" sequence="5" value="optional holiday"/>
+            </choice>
+        </element>
+        <element label="Requested for email" mandatory="true" max_length="40" name="requested_for_email" type="string"/>
+        <element choice="3" default="leave" label="Requested type" mandatory="true" max_length="40" name="requested_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Leave" sequence="0" value="leave"/>
+                <element inactive_on_update="false" label="Travel" sequence="1" value="travel"/>
+                <element inactive_on_update="false" label="Work" sequence="2" value="work"/>
+                <element inactive="true" inactive_on_update="true" label="Leave3" sequence="0" value="leave3"/>
+            </choice>
+        </element>
+        <element label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element label="When needed" mandatory="true" max_length="40" name="when_needed" type="glide_date_time"/>
+    </element>
+</database>
